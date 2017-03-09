@@ -1,0 +1,1 @@
+_single-adventure-post.php

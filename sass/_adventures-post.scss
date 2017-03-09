@@ -1,0 +1,129 @@
+.adventures ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0
+}
+
+.adventures li {
+    float: left;
+    position: relative;
+    overflow: hidden
+}
+
+.adventures li:before {
+    content: "";
+    float: left
+}
+
+.adventures li:first-child {
+    border-right: 20px solid #fff;
+    width: 50%
+}
+
+.adventures li:first-child:before {
+    padding-top: 100%
+}
+
+.adventures li:nth-child(2) {
+    border-bottom: 20px solid #fff;
+    width: 50%
+}
+
+.adventures li:nth-child(2):before {
+    padding-top: calc(50% - 30px)
+}
+
+.adventures li:last-child, .home .adventures li:nth-child(3) {
+    width: 25%
+}
+
+.adventures li:last-child:before, .home .adventures li:nth-child(3):before {
+    padding-top: 100%
+}
+
+.adventures li:nth-child(3) {
+    border-right: 10px solid #fff
+}
+
+.adventures li:last-child {
+    border-left: 10px solid #fff
+}
+
+.adventures .story-wrapper {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1
+}
+
+.adventures .story-wrapper:after {
+    background: rgba(0, 0, 0, .35);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+.adventures .story-wrapper img {
+    left: 50%;
+    max-height: 620px;
+    max-width: none;
+    position: absolute;
+    top: 75%;
+    -webkit-transform: translate(-50%, -75%);
+    transform: translate(-50%, -75%);
+    width: auto
+}
+
+.adventures .story-info {
+    margin: 1.5rem;
+    position: absolute;
+    z-index: 2
+}
+
+.adventures .story-info h3 {
+    font-family: Merriweather Web, serif;
+    font-weight: 400;
+    margin-top: 24px;
+    text-transform: none
+}
+
+.adventures .story-info h3 a {
+    color: #fff
+}
+
+.adventures .story-info h3 a:hover {
+    color: #f0e4d1
+}
+
+.adventures li:first-child .story-info h3 {
+    font-size: 48px;
+    font-size: 3rem
+}
+
+.adventures li:nth-child(2) .story-info h3 {
+    font-size: 38.4px;
+    font-size: 2.4rem
+}
+
+.adventures li:last-child .story-info h3, .adventures li:nth-child(3) .story-info h3 {
+    font-size: 25.6px;
+    font-size: 1.6rem
+}
+
+.adventures .see-more {
+    margin-top: 2.25rem
+}
+
+.adventures .see-more .black-btn, .adventures .see-more .btn,
+.adventures .see-more .white-btn {
+    font-size: 19.2px;
+    font-size: 1.2rem
+}
+
+
