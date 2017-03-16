@@ -1,5 +1,3 @@
-<h1>This is adventures-post.php</h1>
-
 <?php
 /**
  * The template for displaying the footer.

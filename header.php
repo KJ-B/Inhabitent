@@ -82,9 +82,7 @@ img.emoji {
 
       </header><!-- #masthead -->
 
-<?php 
-include ("banner.php");
-?>
+
 
 
 
